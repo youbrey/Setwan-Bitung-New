@@ -1,0 +1,3 @@
+[console_scripts]
+tpp-finger-cli = tpp_finger_scan.cli:main
+tpp-finger-scan = tpp_finger_scan.main:main

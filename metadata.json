@@ -1,0 +1,6 @@
+{
+  "name": "Rekapitulasi TPP PNS - Sekretariat DPRD Kota Bitung",
+  "description": "Aplikasi Rekapitulasi Pemotongan Tunjangan Penambahan Penghasilan (TPP) PNS Berdasarkan Disiplin Finger Scan - Sekretariat DPRD Kota Bitung",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

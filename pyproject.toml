@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=70", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "tpp-finger-scan"
+version = "0.2.0"
+description = "Aplikasi desktop offline untuk rekap TPP dari PDF finger scan"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+  "PySide6>=6.7,<7",
+  "pdfplumber>=0.11,<1",
+  "openpyxl>=3.1,<4",
+]
+
+[project.optional-dependencies]
+build = ["pyinstaller>=6.10,<7"]
+
+[project.scripts]
+tpp-finger-scan = "tpp_finger_scan.main:main"
+tpp-finger-cli = "tpp_finger_scan.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+tpp_finger_scan = ["resources/*.qss"]

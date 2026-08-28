@@ -1,3 +1,15 @@
+Metadata-Version: 2.4
+Name: tpp-finger-scan
+Version: 0.2.0
+Summary: Aplikasi desktop offline untuk rekap TPP dari PDF finger scan
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+Requires-Dist: PySide6<7,>=6.7
+Requires-Dist: pdfplumber<1,>=0.11
+Requires-Dist: openpyxl<4,>=3.1
+Provides-Extra: build
+Requires-Dist: pyinstaller<7,>=6.10; extra == "build"
+
 # TPP Finger Scan
 
 Aplikasi desktop Windows yang memproses PDF rekap finger scan secara lokal,

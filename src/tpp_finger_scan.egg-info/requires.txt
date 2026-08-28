@@ -1,0 +1,6 @@
+PySide6<7,>=6.7
+pdfplumber<1,>=0.11
+openpyxl<4,>=3.1
+
+[build]
+pyinstaller<7,>=6.10
